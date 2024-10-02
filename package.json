@@ -1,0 +1,31 @@
+{
+  "name": "online-shop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "daehyun",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-mongodb-session": "^2.2.0",
+    "cookie-parser": "^1.4.6",
+    "csrf-csrf": "^3.0.6",
+    "csurf": "^1.10.0",
+    "ejs": "^3.1.10",
+    "express": "^5.0.0",
+    "express-session": "^1.18.0",
+    "mongo-objectid": "^1.2.2",
+    "mongodb": "^6.8.0",
+    "multer": "^1.4.5-lts.1",
+    "stripe": "^17.0.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
